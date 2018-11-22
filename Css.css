@@ -1,0 +1,259 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  #padding: 0px;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  height: 40px;
+  #width: 50px;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+
+
+a.men {
+  font-weight: bold;
+  #background-color: #DCDCDC;
+  color: snow;
+  padding:10px 10px 10px 10px;
+  border-radius: 20px;
+  text-align: right;
+  text-decoration: none;
+  margin: 10px 10px 10px 10px;
+  text-shadow: 3px 2px 9px;
+}
+a.men:hover{
+    color:#DCDCDC ;
+}
+
+#Home {
+    background-image: url(img/pexels-photo-988872.jpeg);
+    width: 100%;
+    height: 770px;
+    margin: 0;
+}
+
+.display{
+    margin-left: 0;
+    margin-right: 0;
+    letter-spacing: 4px;
+    position: relative;
+}
+.name{
+
+    position: absolute;
+    left: 20;
+    bottom:50; 
+    font-size: 24px;
+    font-family:serif;
+    #letter-spacing: 5px;
+    #text-decoration: none;
+    
+}
+body{
+   
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-col {
+    width: 100%;
+}
+
+.image-col img {
+    width: 60%;
+}
+.row{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 100%;
+}
+.col{
+  padding: 12px 24px 12px 24px;
+    float: left;
+    width: 100%;
+}
+.opacity-min{
+    opacity: 0.80;
+    border-radius: 40px;
+}
+.center{
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.large{
+        font-size: 18px;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.hide-medium{
+    color: #757575;
+    font-size: 18px;
+    
+}
+footer{
+    display: block;
+    bottom: 0;
+}
+.section{
+  margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    
+}
+.buttom{
+    
+    text-align: center;
+    #opacity: 1;
+    color: #fff;
+    background-color: #000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    
+}
+.hover{
+    cursor: pointer;
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    webkit-font-smoothing: antialiased;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
+.fa-facebook-official:before {
+    content: "\f230";
+}
+.fa-snapchat:before {
+    content: "\f2ab";
+}
+.fa-pinterest-p:before {
+    content: "\f231";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+#copyright{
+    
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-grey{
+  color: black;
+        padding-top: 64px;
+    padding-bottom: 64px;
+         max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.text{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    }
+.line{
+    opacity: 0.60;
+    border: 0;
+    border-top: 2px double black;
+    margin: 20px 0;
+}
+.state{
+     margin-top: 6px;
+    margin-bottom:-35px;
+    
+}
+.fa-fw{
+  width: 1.28571429em;
+    text-align: center;  
+}
+.location{
+    color: black;
+    font-size: 36px;
+    
+    
+}
+.fa-map-marker:before {
+    content: "\f041";
+}
+.fa-phone:before {
+    content: "\f095";
+}
+.fa-envelope:before {
+    content: "\f0e0";
+}
+#milad{
+    text-decoration: none;
+    color: black;
+    }
+#milad:hover{
+   color:#696969; 
+}
+h1{
+    text-shadow: 4px 4px 9px ;
+}
+
+@media screen and (max-width: 2050px) {
+    a.men {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    a.men {
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    a.men {
+        font-size: 8px;
+    }
+}
